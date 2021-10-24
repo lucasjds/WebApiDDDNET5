@@ -1,0 +1,11 @@
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\bin\Debug\net5.0\Service.deps.json
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\bin\Debug\net5.0\Service.dll
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\bin\Debug\net5.0\ref\Service.dll
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\bin\Debug\net5.0\Service.pdb
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\Service.AssemblyInfoInputs.cache
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\Service.AssemblyInfo.cs
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\Service.dll
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\ref\Service.dll
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\Service.pdb
