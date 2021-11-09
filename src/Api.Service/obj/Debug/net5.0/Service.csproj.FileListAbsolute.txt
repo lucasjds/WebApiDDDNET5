@@ -9,3 +9,4 @@ C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5
 C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\Service.dll
 C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\ref\Service.dll
 C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\Service.pdb
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Service\obj\Debug\net5.0\Service.csprojAssemblyReference.cache
