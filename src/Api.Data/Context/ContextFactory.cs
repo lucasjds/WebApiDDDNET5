@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Data.Context
 {
@@ -12,9 +7,9 @@ namespace Data.Context
   {
     public MyContext CreateDbContext(string[] args)
     {
-      var connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB; Initial Catalog=webapi_ddd; Integrated Security=True;";
+      var connectionString = "Data Source=127.0.0.1; User ID=root; Password=admin123; Initial Catalog=webapi_ddd; ";
       var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
-      optionsBuilder.UseMySql(connectionString);
+      optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
       return new MyContext(optionsBuilder.Options);
     }
   }
