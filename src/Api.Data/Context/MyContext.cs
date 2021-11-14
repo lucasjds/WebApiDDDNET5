@@ -1,10 +1,6 @@
-﻿using Domain.Entities;
+﻿using Data.Mapping;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Data.Context
 {
@@ -20,6 +16,7 @@ namespace Data.Context
     protected override void OnModelCreating(ModelBuilder model)
     {
       base.OnModelCreating(model);
+      model.Entity<UserEntity>(new UserMap().Configure);
 
     }
   }
