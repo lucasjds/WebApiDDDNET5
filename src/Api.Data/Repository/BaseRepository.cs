@@ -20,9 +20,24 @@ namespace Data.Repository
       _dataset = context.Set<T>();
     }
 
-    public Task<bool> DeleteAsync(Guid id)
+    public async Task<bool> DeleteAsync(Guid id)
     {
-      throw new NotImplementedException();
+      try
+      {
+        var result = await _dataset.SingleOrDefaultAsync(x => x.Id.Equals(item.Id));
+        if (result == null)
+        {
+          return false;
+        }
+        _dataset.Remove(result);
+        await _context.SaveChangesAsync();
+        return true;
+      }
+      catch
+      {
+        throw;
+      }
+     
     }
 
     public async Task<T> InsertAsync(T item)
