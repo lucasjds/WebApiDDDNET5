@@ -20,6 +20,11 @@ namespace Data.Repository
       _dataset = context.Set<T>();
     }
 
+    public async Task<bool> ExistAsync(Guid id)
+    {
+      return await _dataset.AnyAsync(x => x.Id.Equals(id));
+    }
+
     public async Task<bool> DeleteAsync(Guid id)
     {
       try
