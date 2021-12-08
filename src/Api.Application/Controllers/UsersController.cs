@@ -15,6 +15,7 @@ namespace application.Controllers
     {
       _service = service;
     }
+
     [HttpGet]
     public async Task<ActionResult> GetAll()
     {
@@ -30,6 +31,23 @@ namespace application.Controllers
 
       }
     }
-    
+
+    [HttpGet]
+    [Route ("{id}", Name = "GetWithId")]
+    public async Task<ActionResult> Get(Guid id)
+    {
+      if (!ModelState.IsValid)
+        return BadRequest(ModelState);
+      try
+      {
+        return Ok(await _service.Get(id));
+      }
+      catch (ArgumentException ex)
+      {
+        return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+
+      }
+    }
+
   }
 }
