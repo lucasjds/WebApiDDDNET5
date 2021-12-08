@@ -29,7 +29,7 @@ namespace Data.Repository
     {
       try
       {
-        var result = await _dataset.SingleOrDefaultAsync(x => x.Id.Equals(item.Id));
+        var result = await _dataset.SingleOrDefaultAsync(x => x.Id.Equals(id));
         if (result == null)
         {
           return false;

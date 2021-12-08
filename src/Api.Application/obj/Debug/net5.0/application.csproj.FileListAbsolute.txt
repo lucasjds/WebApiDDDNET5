@@ -27,3 +27,11 @@ C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\obj\Debug\
 C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\obj\Debug\net5.0\ref\application.dll
 C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\obj\Debug\net5.0\application.pdb
 C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\obj\Debug\net5.0\application.genruntimeconfig.cache
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\CrossCutting.dll
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\Domain.dll
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\Service.dll
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\CrossCutting.pdb
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\Domain.pdb
+C:\Users\lucas.jose\Documents\udemy\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\Service.pdb
