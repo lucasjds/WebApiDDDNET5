@@ -51,7 +51,6 @@ namespace application.Controllers
     }
 
     [HttpPost]
-    [Route("{id}", Name = "GetWithId")]
     public async Task<ActionResult> Post([FromBody] UserEntity userEntity)
     {
       if (!ModelState.IsValid)
@@ -61,6 +60,25 @@ namespace application.Controllers
         var result = await _service.Post(userEntity);
         if(result != null)
           return Created(new Uri(Url.Link("GetWithId", new {id = result.Id})), result);
+        return BadRequest();
+      }
+      catch (ArgumentException ex)
+      {
+        return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+
+      }
+    }
+
+    [HttpPut]
+    public async Task<ActionResult> Put([FromBody] UserEntity userEntity)
+    {
+      if (!ModelState.IsValid)
+        return BadRequest(ModelState);
+      try
+      {
+        var result = await _service.Put(userEntity);
+        if (result != null)
+          return Ok(result);
         return BadRequest();
       }
       catch (ArgumentException ex)
