@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
+    "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.CrossCutting\\CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.CrossCutting\\CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\lucas.jose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.CrossCutting\\obj\\",
+        "projectPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\BairesDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucas.jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BairesDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Data\\Data.csproj"
+              "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj"
+              "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -67,21 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Data\\Data.csproj": {
+    "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\lucas.jose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Data\\obj\\",
+        "projectPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\BairesDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucas.jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BairesDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,8 +95,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -147,21 +147,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj": {
+    "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\lucas.jose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Domain\\obj\\",
+        "projectPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\BairesDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucas.jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BairesDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -201,21 +201,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj": {
+    "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\lucas.jose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Service\\obj\\",
+        "projectPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\BairesDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucas.jose\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BairesDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -229,8 +229,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -259,7 +259,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

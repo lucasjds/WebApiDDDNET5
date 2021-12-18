@@ -26,7 +26,7 @@ namespace application.Controllers
       {
         return Ok(await _service.GetAll());
       }
-      catch(ArgumentException ex)
+      catch (ArgumentException ex)
       {
         return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
 
@@ -34,7 +34,7 @@ namespace application.Controllers
     }
 
     [HttpGet]
-    [Route ("{id}", Name = "GetWithId")]
+    [Route("{id}", Name = "GetWithId")]
     public async Task<ActionResult> Get(Guid id)
     {
       if (!ModelState.IsValid)
@@ -58,8 +58,8 @@ namespace application.Controllers
       try
       {
         var result = await _service.Post(userEntity);
-        if(result != null)
-          return Created(new Uri(Url.Link("GetWithId", new {id = result.Id})), result);
+        if (result != null)
+          return Created(new Uri(Url.Link("GetWithId", new { id = result.Id })), result);
         return BadRequest();
       }
       catch (ArgumentException ex)
@@ -80,6 +80,22 @@ namespace application.Controllers
         if (result != null)
           return Ok(result);
         return BadRequest();
+      }
+      catch (ArgumentException ex)
+      {
+        return StatusCode((int)HttpStatusCode.InternalServerError, ex.Message);
+
+      }
+    }
+
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> Delete(Guid id)
+    {
+      if (!ModelState.IsValid)
+        return BadRequest(ModelState);
+      try
+      {
+        return Ok(await _service.Delete(id));
       }
       catch (ArgumentException ex)
       {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WdwF8EHv3HwIVbStP4iVOt9CNCmcIkSybF2tYUCyxIznSmCA2D1FFBwN5jIoBWtQ8bo/19M2gHUJmgSWDCSUSg==",
+  "dgSpecHash": "UxTowj3+WVG3dnWBwwTBSeFvyGLU6FD5B3dihE89ppxKluUfwkFvcSW5TVFxetZHJq4ImaoAQ50TeVPnWMfFIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas.jose\\Documents\\udemy\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "59f00bec-ef8a-431c-b89e-91881ef30eb1": {
+      "ProjectGuid": "59f00bec-ef8a-431c-b89e-91881ef30eb1",
+      "DisplayName": "application",
+      "ColorIndex": 0
+    },
+    "0870bdf9-4fa1-468a-b57c-49d59f3c0d7f": {
+      "ProjectGuid": "0870bdf9-4fa1-468a-b57c-49d59f3c0d7f",
+      "DisplayName": "CrossCutting",
+      "ColorIndex": 1
+    },
+    "0abeca9c-1cdc-43d6-a807-fb01ff5fc620": {
+      "ProjectGuid": "0abeca9c-1cdc-43d6-a807-fb01ff5fc620",
+      "DisplayName": "Data",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
