@@ -1,9 +1,10 @@
-﻿using System.Threading.Tasks;
+﻿using Domain.Entities;
+using System.Threading.Tasks;
 
 namespace Domain.Interfaces.Services.Users
 {
   public interface ILoginService
   {
-    Task<object> FindByLogin(string email);
+    Task<object> FindByLogin(UserEntity user);
   }
 }
