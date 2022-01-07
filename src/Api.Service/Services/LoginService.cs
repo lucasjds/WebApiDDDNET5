@@ -1,4 +1,4 @@
-﻿using Domain.Entities;
+﻿using Domain.Dtos;
 using Domain.Interfaces.Services.Users;
 using Domain.Repository;
 using System.Threading.Tasks;
@@ -14,7 +14,7 @@ namespace Service.Services
       _repository = repository;
     }
 
-    public async Task<object> FindByLogin(UserEntity user)
+    public async Task<object> FindByLogin(LoginDto user)
     {
       if(user != null && !string.IsNullOrWhiteSpace(user.Email))
       {
