@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace application.Controllers
 {
+  [Route("api/[controller]")]
+  [ApiController]
   public class LoginController : ControllerBase
   {
+    [HttpGet]
     public async Task<object> Login([FromBody] LoginDto login, [FromServices] ILoginService service)
     {
       if (!ModelState.IsValid)
