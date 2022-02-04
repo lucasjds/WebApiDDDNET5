@@ -1,6 +1,8 @@
 using CrossCutting.DependencyInjection;
 using Data.Context;
 using Domain.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +26,7 @@ namespace application
     // This method gets called by the runtime. Use this method to add services to the container.
     public void ConfigureServices(IServiceCollection services)
     {
+      services.AddControllers();
       ConfigureService.ConfigureDependenciesServices(services);
       ConfigureRepository.ConfigureDependenciesRepositories(services);
 
@@ -34,10 +37,31 @@ namespace application
       new ConfigureFromConfigurationOptions<TokenConfigurations>(
         Configuration.GetSection("TokenConfigurations"))
                     .Configure(tokenConfigurations);
+      services.AddSingleton(tokenConfigurations);
 
+      services.AddAuthentication(authOptions =>
+      {
+        authOptions.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+        authOptions.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+      }).AddJwtBearer(auth =>
+      {
+        var paramsValidation = auth.TokenValidationParameters;
+        paramsValidation.IssuerSigningKey = signingConfigurations.Key;
+        paramsValidation.ValidAudience = tokenConfigurations.Audience;
+        paramsValidation.ValidIssuer = tokenConfigurations.Issuer;
+        paramsValidation.ValidateIssuerSigningKey = true;
+        paramsValidation.ValidateLifetime = true;
+        paramsValidation.ClockSkew = System.TimeSpan.Zero;
+      });
 
+      services.AddAuthorization(auth =>
+      {
+        auth.AddPolicy("Bearer", new AuthorizationPolicyBuilder()
+            .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
+            .RequireAuthenticatedUser().Build());
+      });
 
-      services.AddControllers();
+     
       services.AddSwaggerGen(c =>
       {
         c.SwaggerDoc("v1", new OpenApiInfo { Title = "application", Version = "v1" });

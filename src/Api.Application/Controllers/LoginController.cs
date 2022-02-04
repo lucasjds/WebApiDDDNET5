@@ -1,5 +1,6 @@
 ﻿using Domain.Dtos;
 using Domain.Interfaces.Services.Users;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Net;
@@ -11,7 +12,8 @@ namespace application.Controllers
   [ApiController]
   public class LoginController : ControllerBase
   {
-    [HttpGet]
+    [AllowAnonymous]
+    [HttpPost]
     public async Task<object> Login([FromBody] LoginDto login, [FromServices] ILoginService service)
     {
       if (!ModelState.IsValid)
