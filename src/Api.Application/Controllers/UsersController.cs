@@ -1,4 +1,5 @@
-﻿using Domain.Entities;
+﻿using Api.Domain.Dtos.User;
+using Domain.Entities;
 using Domain.Interfaces.Services.Users;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -55,13 +56,13 @@ namespace application.Controllers
 
     [Authorize("Bearer")]
     [HttpPost]
-    public async Task<ActionResult> Post([FromBody] UserEntity userEntity)
+    public async Task<ActionResult> Post([FromBody] UserDto user)
     {
       if (!ModelState.IsValid)
         return BadRequest(ModelState);
       try
       {
-        var result = await _service.Post(userEntity);
+        var result = await _service.Post(user);
         if (result != null)
           return Created(new Uri(Url.Link("GetWithId", new { id = result.Id })), result);
         return BadRequest();
@@ -75,13 +76,13 @@ namespace application.Controllers
 
     [Authorize("Bearer")]
     [HttpPut]
-    public async Task<ActionResult> Put([FromBody] UserEntity userEntity)
+    public async Task<ActionResult> Put([FromBody] UserDto user)
     {
       if (!ModelState.IsValid)
         return BadRequest(ModelState);
       try
       {
-        var result = await _service.Put(userEntity);
+        var result = await _service.Put(user);
         if (result != null)
           return Ok(result);
         return BadRequest();
