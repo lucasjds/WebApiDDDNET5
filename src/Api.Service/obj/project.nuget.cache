@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+r+lOJ4qSqxvi/OWJeL2Hr+jDKMQlM+Rr5P2hbsXsW0kakD4LTbL/w67Q6+xtbtD0G46fLD88EANhqlgAKcvdw==",
+  "dgSpecHash": "pl5jw1+YfmK0IBJQshhiwJNISl1v38P/OazowNFlLmTHg0L5eOHHkGzNTzEJoSb98iFnfTf4aeJilicZjYPaYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\BairesDev\\source\\repos\\WebApiDDDNET5\\src\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\BairesDev\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\BairesDev\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\BairesDev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\BairesDev\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\BairesDev\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\BairesDev\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.5.0\\microsoft.identitymodel.jsonwebtokens.5.5.0.nupkg.sha512",

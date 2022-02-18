@@ -78,7 +78,7 @@ namespace Service.Services
         expiration = expirationDate.ToString("yyyy-MM-dd HH:mm:ss"),
         accessToken = token,
         userName = user.Email,
-        name = user.Nome,
+        name = user.Name,
         message = "Usuario logado com sucesso"
       };
     }

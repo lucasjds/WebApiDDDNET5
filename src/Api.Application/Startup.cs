@@ -1,4 +1,7 @@
+using Api.CrossCutting.Mappings;
+using AutoMapper;
 using CrossCutting.DependencyInjection;
+using CrossCutting.Mappings;
 using Data.Context;
 using Domain.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -30,6 +33,16 @@ namespace application
       services.AddControllers();
       ConfigureService.ConfigureDependenciesServices(services);
       ConfigureRepository.ConfigureDependenciesRepositories(services);
+
+      var config = new AutoMapper.MapperConfiguration(config =>
+      {
+        config.AddProfile(new DtoToModelProfile());
+        config.AddProfile(new EntityToDtoProfile());
+        config.AddProfile(new ModelToEntityProfile());
+      });
+
+      IMapper mapper = config.CreateMapper();
+      services.AddSingleton(mapper);
 
       var signingConfigurations = new SigningConfigurations();
       services.AddSingleton(signingConfigurations);

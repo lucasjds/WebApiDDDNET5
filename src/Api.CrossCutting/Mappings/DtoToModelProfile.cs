@@ -1,5 +1,6 @@
 ﻿using Api.Domain.Dtos.User;
 using AutoMapper;
+using Domain.Dtos.User;
 using Domain.Models;
 
 namespace CrossCutting.Mappings
@@ -9,6 +10,8 @@ namespace CrossCutting.Mappings
     public DtoToModelProfile()
     {
       CreateMap<UserModel, UserDto>().ReverseMap();
+      CreateMap<UserModel, UserDtoCreate>().ReverseMap();
+      CreateMap<UserModel, UserDtoUpdate>().ReverseMap();
     }
   }
 }

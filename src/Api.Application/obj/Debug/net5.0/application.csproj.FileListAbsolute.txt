@@ -110,3 +110,5 @@ C:\Users\BairesDev\source\repos\WebApiDDDNET5\src\Api.Application\bin\Debug\net5
 C:\Users\BairesDev\source\repos\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\BairesDev\source\repos\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\BairesDev\source\repos\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\BairesDev\source\repos\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\BairesDev\source\repos\WebApiDDDNET5\src\Api.Application\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
